@@ -21,7 +21,7 @@ public class EntryPoint extends Application {
         FXMLController controller = loader.getController();
         controller.setModel(model);
         
-        scene.getRoot().setStyle("-fx-font-family: 'Verdana'");
+        scene.getRoot().setStyle("-fx-font-family: 'Helvetica'");
 
         stage.setTitle("Gestore Corsi");
         stage.setScene(scene);
