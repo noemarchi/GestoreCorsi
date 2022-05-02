@@ -9,7 +9,8 @@ public class Studente {
 	private String CDS;
 	
 	// COSTRUTTORE
-	public Studente(Integer matricola, String cognome, String nome, String cDS) {
+	public Studente(Integer matricola, String cognome, String nome, String cDS) 
+	{
 		super();
 		this.matricola = matricola;
 		this.cognome = cognome;
